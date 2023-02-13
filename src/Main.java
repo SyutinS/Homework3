@@ -70,22 +70,22 @@ public class Main {
 
     public static void task6() {
         System.out.println("Задача 6");
-        var boxerFerst = 78.2;
-        var boxerSeсond = 82.7;
-        var boxerAll = boxerFerst + boxerSeсond;
+        var boxerOne = 78.2;
+        var boxerTwo = 82.7;
+        var boxerAll = boxerOne + boxerTwo;
         System.out.println("Общий вес боксеров " + boxerAll + "кг");
-        var boxerDifference = boxerFerst - boxerSeсond;
+        var boxerDifference = boxerOne - boxerTwo;
         System.out.println("Разница веса на " + boxerDifference + "кг");
     }
 
     public static void task7() {
         System.out.println("Задача 7");
-        var boxerFerst = 78.2;
-        var boxerSeсond = 82.7;
-        var boxerAll = boxerFerst + boxerSeсond;
-        var boxerDifference = boxerSeсond - boxerFerst;
+        var boxerOne = 78.2;
+        var boxerTwo = 82.7;
+        var boxerAll = boxerOne + boxerTwo;
+        var boxerDifference = boxerTwo - boxerOne;
         System.out.println("Разница веса на " + boxerDifference + "кг");
-        boxerDifference = boxerAll % boxerFerst;
+        boxerDifference = boxerAll % boxerOne;
         System.out.println("Разница веса на " + boxerDifference + "кг");
     }
 
